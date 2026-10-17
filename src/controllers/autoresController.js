@@ -32,7 +32,7 @@ class AutoresController {
       const autor = await Autor.pegarPeloId(params.id);
       return res
         .status(200)
-        .json({ autor, livros: listarLivros, message: 'Busca Realizada' });
+        .json({ autor, livros: listarLivros, message: 'a busca realizada' });
     } catch (err) {
       return res.status(500).json(err.message);
     }
