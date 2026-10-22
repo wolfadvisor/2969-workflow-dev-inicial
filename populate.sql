@@ -8,7 +8,11 @@ CREATE TABLE autores(
 
 INSERT INTO autores (nome, nacionalidade)
 VALUES  ('JRR Tolkien', 'sul-africano'),
+<<<<<<< HEAD
         ('Ursula LeGuin', 'estadunidense'),
+=======
+        ('Ursula LeGuin', 'americano'),
+>>>>>>> aula4/feat/eventos
         ('Machado de Assis', 'brasileira'),
         ('Júlio Cortázar', 'argentino');
 

@@ -21,8 +21,11 @@ services:
       - '4000:4000'
     volumes:
       - ./:/app:cached
+<<<<<<< HEAD
       - /app/node_modules
 
+=======
+>>>>>>> aula4/feat/eventos
   db:
     image: postgres:16-alpine
     container_name: livraria_db
